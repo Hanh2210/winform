@@ -20,6 +20,7 @@ namespace QLMAMNON.BLL
         }
         public DataTable showHocsinh()
         {
+
             string sql = "select * from hocsinh";
             DataTable dt = new DataTable();
             dt = data.GetTable(sql);
