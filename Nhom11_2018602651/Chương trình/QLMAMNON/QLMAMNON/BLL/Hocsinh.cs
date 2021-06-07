@@ -22,6 +22,7 @@ namespace QLMAMNON.BLL
         {
 
             string sql = "select * from hocsinh";
+
             DataTable dt = new DataTable();
             dt = data.GetTable(sql);
             return dt;
