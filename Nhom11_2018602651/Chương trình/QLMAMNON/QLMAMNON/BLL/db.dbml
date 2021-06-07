@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="truongmamnon" Class="dbDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=DESKTOP-MF2OIJQ\SQLEXPRESS;Initial Catalog=truongmamnon;Integrated Security=True" SettingsObjectName="QLMAMNON.Properties.Settings" SettingsPropertyName="truongmamnonConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.hocsinh" Member="hocsinhs">
+    <Type Name="hocsinh">
+      <Column Name="mahs" Type="System.String" DbType="NVarChar(10) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="hotenhs" Type="System.String" DbType="NVarChar(30)" CanBeNull="true" />
+      <Column Name="gioitinh" Type="System.String" DbType="NVarChar(10)" CanBeNull="true" />
+      <Column Name="ngaysinh" Type="System.DateTime" DbType="SmallDateTime" CanBeNull="true" />
+      <Column Name="dantoc" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+      <Column Name="hotenbo" Type="System.String" DbType="NVarChar(30)" CanBeNull="true" />
+      <Column Name="sdtbo" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+      <Column Name="hotenme" Type="System.String" DbType="NVarChar(30)" CanBeNull="true" />
+      <Column Name="sdtme" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.nhanvien" Member="nhanviens">
+    <Type Name="nhanvien">
+      <Column Name="manv" Type="System.String" DbType="NVarChar(10) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="hotennv" Type="System.String" DbType="NVarChar(30)" CanBeNull="true" />
+      <Column Name="gioitinh" Type="System.String" DbType="NVarChar(10)" CanBeNull="true" />
+      <Column Name="ngaysinh" Type="System.DateTime" DbType="SmallDateTime" CanBeNull="true" />
+      <Column Name="chucvu" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+      <Column Name="chungminhthu" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+      <Column Name="dantoc" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+      <Column Name="sodienthoai" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+      <Column Name="diachi" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>
